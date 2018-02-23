@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+html, app-root{
+  height: 100%;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  height: 100%;
+}
+.float-container{
+  overflow: hidden;
+}
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+.clickable{
+  cursor: pointer;
+}
+*{
+  box-sizing: border-box;
+}

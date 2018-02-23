@@ -1,0 +1,12 @@
+
+<div class="chat-window">
+  <div *ngFor="let message of messages | async | messages">
+    <span [class.mine]="message.email === myUser.email" [class.theirs]="message.email !== myUser.email">
+      ({{message.time | shortDateTime}}) {{message.email | user: userArray}}:
+    </span>
+     {{message.text}}
+  </div>
+</div>
+<div class="input">
+  <input type="text" [(ngModel)]="text" (keypress)="OnKeyPress($event)" placeholder="Enter message here">
+</div>

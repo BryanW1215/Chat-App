@@ -1,0 +1,12 @@
+:host {
+  overflow: hidden;
+  height: 100%;
+  app-user-list {
+    float: left;
+    width: 250px
+  }
+  app-chat{
+    float: left;
+    width: calc(100% - 250px)
+  }
+}

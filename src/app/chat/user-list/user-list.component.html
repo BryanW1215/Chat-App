@@ -1,0 +1,13 @@
+<div *ngFor="let user of users | async" class="float-container clickable user" [class.selected]="user.email === selectedUserEmail" (click)="SelectUser(user)">
+  <div class="left picture">
+    <img src="{{user.picture}}">
+  </div>
+  <div class="left name-email">
+    <div class="name">
+      {{user.first_name}} {{user.last_name}}
+    </div>
+    <div class="email">
+      {{user.email}}
+    </div>
+  </div>
+</div>

@@ -1,0 +1,22 @@
+.user {
+  &.selected{
+    background:  #b9bfc6;
+  }
+  .picture {
+    img {
+      border-radius: 30px;
+      width: 30px;
+      height: 30px;
+      margin: 10px;
+    }
+  }
+  .name-email {
+    max-width: 200px;
+    padding-top: 7px;
+
+    .email {
+      font-size: 10px;
+    }
+  }
+}
+

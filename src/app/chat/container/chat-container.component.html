@@ -1,0 +1,2 @@
+<app-user-list (on-selection)="OnUserSelected($event)"></app-user-list>
+<app-chat *ngIf="selectedUser" [user]="selectedUser"></app-chat>

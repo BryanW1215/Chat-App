@@ -1,0 +1,19 @@
+.chat-window{
+  padding: 5px;
+  .mine{
+    color: blue;
+  }
+  .theirs{
+    color: red;
+  }
+}
+.input{
+  bottom: 0;
+  input{
+    width: calc(100%);
+  }
+  .icon{
+
+  }
+}
+

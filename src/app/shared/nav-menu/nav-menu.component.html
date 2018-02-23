@@ -1,0 +1,7 @@
+<div class="brand">Chat App</div>
+
+<div class="right">
+  <span *ngIf="session.isLoggedIn" class="logged-in-as">Logged in as {{session.user.first_name}}</span>
+  <span *ngIf="session.isLoggedIn" class="clickable" (click)="Logout()">Logout</span>
+  <span *ngIf="!session.isLoggedIn" class="clickable" (click)="Login()">Login</span>
+</div>

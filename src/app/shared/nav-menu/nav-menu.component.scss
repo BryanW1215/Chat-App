@@ -1,0 +1,19 @@
+:host{
+  display: block;
+  background: #343a40;
+  color: #dddddd;
+  padding: 10px;
+  overflow: hidden;
+  .brand{
+    font-size:18px;
+    font-weight: 600;
+    float: left;
+  }
+  .logged-in-as{
+    font-size: 12px;
+  }
+  .links{
+    padding: 10px;
+  }
+
+}
